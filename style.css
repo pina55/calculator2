@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-color: rgb(229, 230, 231);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f8eded;
+}
+
+#main {
+  width: 248px;
+  height: 300px;
+  margin: auto;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+#numbers {
+  background-color: rgb(145, 158, 158);
+  width: 177px;
+  height: 250px;
+  float: left;
+}
+#numbers .number {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+#operators {
+  background: rgb(145, 158, 158);
+  width: 70px;
+  height: 250px;
+  float: right;
+}
+
+#operators .sign {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.clear {
+  clear: both;
+}
+
+#resultOperators {
+  background-color: rgb(241, 62, 98);
+}
+#resultOperators .resultOperator {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+#delete {
+  width: 120px !important;
+}
+#equal {
+  width: 110px !important;
+}
+
+#result {
+  width: 100%;
+  background-color: rgb(179, 160, 179);
+  height: 60px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#resultInner {
+  width: 225px;
+  height: 40px;
+  background-color: darkseagreen;
+  display: block;
+  margin: 10px;
+  color: black;
+}
